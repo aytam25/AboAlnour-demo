@@ -1,9 +1,9 @@
 // قائمة الصور داخل مجلد images
 const images = [
-  "images/work1.jpg",
-  "images/work2.jpg",
-  "images/work3.jpg",
-  "images/work4.jpg",
+  "images/t1.jpg",
+  "images/t2.jpeg",
+  "images/t3.jpeg",
+  "images/tsc.jpeg",
   "images/work5.jpg" // يمكنك إضافة المزيد هنا
 ];
 
@@ -25,4 +25,5 @@ setInterval(() => {
   slides[current].classList.remove("active");
   current = (current + 1) % slides.length;
   slides[current].classList.add("active");
+
 }, 4000);
