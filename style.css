@@ -1,0 +1,100 @@
+/* إعدادات عامة */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* الهيدر */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* شريط التنقل */
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 10px;
+}
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ffd700;
+}
+
+/* قسم QR */
+.qr-section {
+  text-align: center;
+  margin: 20px;
+}
+.qr-section img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+/* معرض الصور */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* محتوى الصفحات */
+.content {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* نموذج التواصل */
+.form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ffd700;
+  color: #000;
+}
+
+/* الفوتر */
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
