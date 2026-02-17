@@ -4,29 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>معرض الأعمال</title>
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>معرض الأعمال</header>
-<nav>
-  <a href="index.html">الرئيسية</a>
-  <a href="about.html">عن المصمم</a>
-  <a href="contact.html">تواصل معنا</a>
-</nav>
+<header>
+  <div class="logo">🎨 معرض الأعمال</div>
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="about.html">عن المصمم</a>
+    <a href="contact.html">تواصل معنا</a>
+  </nav>
+</header>
 
-<div class="qr-section">
-  <img src="images/qr-code.png" alt="رمز QR">
-  <p>امسح رمز QR لعرض الصور مباشرة</p>
-</div>
+<section class="hero">
+  <h1>أعمالي الإبداعية</h1>
+  <p>استكشف أحدث التصاميم عبر رمز QR</p>
+  <img src="images/qr-code.png" alt="رمز QR" class="qr-code">
+</section>
 
-<div class="gallery">
-  <img src="images/t1.jpg" alt="عمل 1">
-  <img src="images/t2.jpeg" alt="عمل 2">
-  <img src="images/t3.jpeg" alt="عمل 3">
-  <img src="images/tsc.jpeg" alt="عمل 4">
-</div>
+<!-- سلايدر الصور -->
+<div class="slider" id="slider"></div>
 
-<footer>© جميع الحقوق محفوظة - تصميم Mohmd</footer>
+<footer>
+  <p>© جميع الحقوق محفوظة - تصميم Mohmd</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
