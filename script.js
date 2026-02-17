@@ -4,7 +4,7 @@ const images = [
   "images/t2.jpeg",
   "images/t3.jpeg",
   "images/tsc.jpeg",
-  "images/work5.jpg" // يمكنك إضافة المزيد هنا
+  "images/ebay.jpg" // يمكنك إضافة المزيد هنا
 ];
 
 const slider = document.getElementById("slider");
@@ -27,3 +27,4 @@ setInterval(() => {
   slides[current].classList.add("active");
 
 }, 4000);
+
